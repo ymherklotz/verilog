@@ -1,0 +1,33 @@
+|bus_d_ff
+is_blue => x_pos_out[0]~reg0.CLK
+is_blue => x_pos_out[1]~reg0.CLK
+is_blue => x_pos_out[2]~reg0.CLK
+is_blue => x_pos_out[3]~reg0.CLK
+is_blue => x_pos_out[4]~reg0.CLK
+is_blue => x_pos_out[5]~reg0.CLK
+is_blue => x_pos_out[6]~reg0.CLK
+is_blue => x_pos_out[7]~reg0.CLK
+is_blue => x_pos_out[8]~reg0.CLK
+is_blue => x_pos_out[9]~reg0.CLK
+x_pos_in[0] => x_pos_out[0]~reg0.DATAIN
+x_pos_in[1] => x_pos_out[1]~reg0.DATAIN
+x_pos_in[2] => x_pos_out[2]~reg0.DATAIN
+x_pos_in[3] => x_pos_out[3]~reg0.DATAIN
+x_pos_in[4] => x_pos_out[4]~reg0.DATAIN
+x_pos_in[5] => x_pos_out[5]~reg0.DATAIN
+x_pos_in[6] => x_pos_out[6]~reg0.DATAIN
+x_pos_in[7] => x_pos_out[7]~reg0.DATAIN
+x_pos_in[8] => x_pos_out[8]~reg0.DATAIN
+x_pos_in[9] => x_pos_out[9]~reg0.DATAIN
+x_pos_out[0] <= x_pos_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x_pos_out[1] <= x_pos_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x_pos_out[2] <= x_pos_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x_pos_out[3] <= x_pos_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x_pos_out[4] <= x_pos_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x_pos_out[5] <= x_pos_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x_pos_out[6] <= x_pos_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x_pos_out[7] <= x_pos_out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x_pos_out[8] <= x_pos_out[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x_pos_out[9] <= x_pos_out[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
