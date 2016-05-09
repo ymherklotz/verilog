@@ -1,4 +1,4 @@
-module column_chooser(first_red_pos_x, sec_red_pos_x, top_grid_x0, top_grid_x1, top_grid_x2, top_grid_x3, top_grid_x4, 
+module TestVerilog(first_red_pos_x, sec_red_pos_x, top_grid_x0, top_grid_x1, top_grid_x2, top_grid_x3, top_grid_x4, 
                       top_grid_x5, top_grid_x6, top_grid_x7, top_grid_x8, top_grid_x9, top_grid_x10, top_grid_x11, top_grid_x12, 
                       top_grid_x13, top_grid_x14, top_grid_x15, top_grid_x16, top_grid_x17, top_grid_x18, top_grid_x19, top_grid_x20, 
                       top_grid_x21, top_grid_x22, top_grid_x23, top_grid_x24, top_grid_x25, top_grid_x26, top_grid_x27, top_grid_x28, 
