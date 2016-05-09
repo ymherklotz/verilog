@@ -44,7 +44,7 @@ module special_note_mux(clk_in, x_in0, x_in1, x_in2, x_in3, x_in4, x_in5, x_in6,
 
    always @(posedge clk_in)
 	 begin
-		if(counter < 32)
+		if(counter < 6d'32)
 		  begin
 			 if(counter == 6d'0) x_out = x_in0;
 			 if(counter == 6d'1) x_out = x_in1;
